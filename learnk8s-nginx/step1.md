@@ -7,3 +7,12 @@ Start the cluster by running the `launch.sh`{{execute}} script.
 
 This will create a Kubernetes cluster made of two servers. Wait for the
 script to complete before proceeding.
+
+You can now install ingress-nginx with: `kubectl apply -f
+https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.47.0/deploy/static/provider/baremetal/deploy.yaml`{{execute}}
+
+At this point, our cluster is installed and exposed to the internet.
+
+Let's get the IP of our machine by running: `curl ifconfig.me`{{execute}}
+
+Try to open the IP address on your browser... What do you see?
