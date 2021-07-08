@@ -3,4 +3,7 @@
 Kubernetes is a complex software with many moving components interacting
 with each other. Let's spend some time discovering the basic components...
 
-Start the cluster by running the `launch.sh` script.
+Start the cluster by running the `launch.sh`{{execute}} script.
+
+This will create a Kubernetes cluster made of two servers. Wait for the
+script to complete before proceeding.
