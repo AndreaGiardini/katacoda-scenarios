@@ -1,11 +1,12 @@
 # Starting Kubernetes
 
 Kubernetes is a complex software with many moving components interacting
-with each other. Let's spend some time discovering the basic components...
+with each other.
 
 Start the cluster by running the `launch.sh`{{execute}} script.
 
-This will create a Kubernetes cluster made of two servers.
+This will create a Kubernetes cluster made of two nodes, it will take ~2 minutes.
 
-Wait for the script to complete before proceeding. You can check the status of the nodes by running `kubectl get nodes`{{execute}} once you see both of them marked as `Ready` you can move to the next section.
+Run the `kubectl get nodes`{{execute}} command and look under the column `STATUS`.
+Once you see both of them marked as `Ready`, move to the next section.
 
