@@ -11,4 +11,6 @@ Execute `kubectl get svc -A | grep NodePort | cut -f2 -d':' | cut -f1 -d'/'`{{ex
 After executing the command, the terminal will print a number: that is the port number that we need.
 Copy the number in the port field and press "Display port"
 
-If everything went well, you should see a "404 not found!" message
+If everything went well, you should see a "404 not found" message
+
+That's not very exciting right? Let's show something better
