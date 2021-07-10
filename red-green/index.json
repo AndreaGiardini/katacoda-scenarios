@@ -1,8 +1,8 @@
 {
-  "title": "Learnk8s nginx",
-  "description": "Learnk8s nginx",
+  "title": "Green / Red apps",
+  "description": "Use kubernetes to expose two applications",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
