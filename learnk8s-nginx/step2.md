@@ -5,6 +5,6 @@ You can now install ingress-nginx with: `kubectl apply -f https://raw.githubuser
 Even in this case, the deployment might take a couple of minutes.
 
 Monitor the status of the applications by running `kubectl get po -n ingress-nginx`{{execute}}.
-When all of them are marked as `Running` or `Completed`, you can proceed to the next step.
+When all the components are marked as `Running` or `Completed`, you can proceed to the next step.
 
 
