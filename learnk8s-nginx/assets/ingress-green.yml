@@ -8,12 +8,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: "/red"
-        pathType: "Prefix"
-        backend:
-          serviceName: "red"
-          servicePort: 80
-      - path: "/green"
+      - path: "/"
         pathType: "Prefix"
         backend:
           serviceName: "green"

@@ -34,7 +34,9 @@
     },
     "assets": {
       "controlplane": [
-          {"file": "ingress.yml", "target": "/tmp/"}
+          {"file": "ingress-green.yml", "target": "/tmp/"},
+          {"file": "ingress-red.yml", "target": "/tmp/"},
+          {"file": "ingress-mix.yml", "target": "/tmp/"}
       ]
     }
   },
