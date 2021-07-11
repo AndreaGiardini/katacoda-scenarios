@@ -13,5 +13,4 @@ After executing the command, the terminal will print a number: that is the
 port number that we need. Copy the number in the `live` tab and press
 "Display port"
 
-If everything went well, you should see the Guestbook application
-deployed!
+If everything went well, you should see the Yelb application deployed!
